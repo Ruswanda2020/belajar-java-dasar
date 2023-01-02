@@ -26,6 +26,6 @@ public class VariabelJava {
         System.out.println(Age2);
         System.out.println(Address2);
 
-
+        System.out.println("Hello, World!!!");
     }
 }
