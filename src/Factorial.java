@@ -1,9 +1,9 @@
 public class Factorial {
     public static void main(String[] args) {
 
-        System.out.println(FactorialLoop(11));
-        System.out.println(FactorialRecrusive(11));
-        loop(10000);
+        System.out.println(FactorialLoop(10));
+        //System.out.println(FactorialRecrusive(11));
+        //loop(10000);
 
     }
     static int FactorialLoop(int value){
