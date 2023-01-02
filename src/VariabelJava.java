@@ -3,7 +3,7 @@ public class VariabelJava {
 
 
         String Name1="RUSWANDA";
-        int Age1=22;
+        int Age1=22+1;
         String Address="indonesia";
 
         System.out.println(Name1);
@@ -21,11 +21,13 @@ public class VariabelJava {
         final String Name2="ruswanda";
         var Age2=22;
         var Address2="INDONESIA";
+        var addreaaDitel="jl.golden prak musolla al-araf ";
 
         System.out.println(Name2);
         System.out.println(Age2);
         System.out.println(Address2);
+        System.out.println(addreaaDitel);
 
-        System.out.println("Hello, World!!!");
+
     }
 }
