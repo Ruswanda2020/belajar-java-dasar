@@ -25,6 +25,7 @@ public class VariabelJava {
         System.out.println(Name2);
         System.out.println(Age2);
         System.out.println(Address2);
+        System.out.println(Name2);
 
     }
 }
