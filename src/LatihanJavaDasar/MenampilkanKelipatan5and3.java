@@ -14,7 +14,7 @@ public class MenampilkanKelipatan5and3 {
         for (int angka=1;angka<batasAngka;angka++){
             if (kelipatanTigaAtauLima(angka)){
                 tampilkanAngka(angka);
-                tambahAJumlahngkaGenapAtauGanjil(angka);
+                tambahJumlahngkaGenapAtauGanjil(angka);
             }
         }
         tampikanJumlahAngkaGenapAtauGanjil();
@@ -31,7 +31,7 @@ public class MenampilkanKelipatan5and3 {
     private static void tampilkanAngka(int angka){
         System.out.print("["+angka+"]");
     }
-    private static void tambahAJumlahngkaGenapAtauGanjil(int angka) {
+    private static void tambahJumlahngkaGenapAtauGanjil(int angka) {
         if (genap(angka)) {
             jumlahangkagenap++;
         } else {
