@@ -4,25 +4,27 @@ import java.util.Scanner;
 
 public class CheckBilanganPrimaOrNot {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        while (true) {
-            int num;
-            boolean isPrime = true;
-
-            System.out.print("input your number you want : ");
-            num = input.nextInt();
-            for (var i = 2; i <= num / 2; i++) {
-                if (num % i == 0) {
-                    isPrime = false;
-                    break;
-                }
+        show(29);
+        show(21);
+        show(3);
+    }
+    public static boolean isPrimes(int num){
+        if (num < 2){
+            return false;
+        }
+        for (var i = 2 ; i <= Math.sqrt(num); i++){
+            if (num % i == 0){
+               return false;
             }
+        }
+        return true;
+    }
+    public static void show(int num){
 
-            if (isPrime) {
-                System.out.println(num + " this is primes");
-            } else {
-                System.out.println(num + " this is not primes");
-            }
+        if (isPrimes(num)){
+            System.out.println(num + " bilangan prima");
+        }else {
+            System.out.println(num+ " bukan bilangan prima");
         }
     }
 }
