@@ -12,7 +12,7 @@ public class CheckBilanganPrimaOrNot {
         if (num < 2){
             return false;
         }
-        for (var i = 2 ; i <= Math.sqrt(num); i++){
+        for (var i = 2 ; i <= num / 2; i++){
             if (num % i == 0){
                return false;
             }
